@@ -1,0 +1,56 @@
+body{
+    font-family: monospace;
+}
+
+p{
+    color:blueviolet;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.list{
+    color:aqua;
+}
+
+/* .list - classe (atribui varios elementos)
+#msg - id (é unica para cada elemento) */
+
+.tema{
+    background-color: #FFFFFF;
+    color: rgb(177, 7, 244);
+}
+
+/* constantes */
+
+:root{
+    --main-bg-color: #000000;
+    --main-text-color: #7104ee;
+    --btnColor: #FFFFFF;
+    --btnBg: rgb(177, 7, 244);
+}
+
+.dark-theme{
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+}
+
+.btn{
+    position: absolute;
+    left: 25px;
+    height: 32px;
+    width: 50px;
+    border-radius: 20%;
+    border: none;
+    color: var(--btnColor);
+    background-color: var(--btnBg);
+}
+
+/* pseudo classe */
+
+.btn:focus{
+    outline: none;
+    /* elimina o contorno retangular quando é selecionado */
+}
+
